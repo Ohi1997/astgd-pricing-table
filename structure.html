@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pricing Table Documentation</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jquery.tocify.css" rel="stylesheet">
+    <link href="assets/img/favicon.ico" rel="shortcut icon">
+    <link href="assets/css/prettify.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header col-md-3">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/astgd-logo.png" alt="logo" width="150" height="40">
+                  </a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav pull-right">
+                      <li><a href="index.html">Overview</a></li>
+                      <li class="active"><a href="structure.html">Structure</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="policy.html">Support Policy</a></li>
+                      <li><a href="copyright.html">Copyright</a></li>
+                      <li><a href="contact.html">Contacts</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="b-solid" id="toc">
+                    
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-9 col-lg-9">
+
+                <div class="content b-solid m-0">
+                  <h6 class="byinebur">Design With ♥ by <a href="http://astgd.com" target="_blank">ASTGD</a></h6>
+                  <h1>HTML Structure</h1>
+                  <h5 class="m-0">Grid System:</h5>
+                  <p>This Template has a Responsive layout and is based on the Bootstrap Framework. For more info visit 
+                    <a class="link" href="http://getbootstrap.com/" target="_blank">Bootstrap.</a><br>Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
+                  </p><br>
+<pre class="prettyprint linenums">
+  &lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-md-12 text-center"&gt;
+      &lt;h2 class="section-heading mergecolor"&gt;
+        Choose the available &lt;b class="c-rdb"&gt;RDP&lt;/b&gt; plan
+      &lt;/h2&gt;
+      &lt;p class="section-subheading mergecolor"&gt;
+        Select Desired Data Center Location
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="tabs-header mt-4 d-flex" id="tabhead"&gt;
+      &lt;ul class="btn-group list-inline mx-auto justify-content-center" id="headergroup"&gt;
+        &lt;li class="btn btn-secondary list-inline-item active mb-2 me-3" id="header1"&gt;
+          &lt;!-- Value will be added from json as name=id (header1)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header2"&gt;
+          &lt;!-- Value will be added from json as name=id (header2)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header3"&gt;
+          &lt;!-- Value will be added from json as name=id (header3)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header4"&gt;
+          &lt;!-- Value will be added from json as name=id (header4)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header5"&gt;
+          &lt;!-- Value will be added from json as name=id (header5)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header6"&gt;
+          &lt;!-- Value will be added from json as name=id (header6)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header7"&gt;
+          &lt;!-- Value will be added from json as name=id (header7)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header8"&gt;
+          &lt;!-- Value will be added from json as name=id (header8)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header9"&gt;
+          &lt;!-- Value will be added from json as name=id (header9)  --&gt;
+        &lt;/li&gt;
+        &lt;li class="btn btn-secondary list-inline-item mb-2 me-3" id="header10"&gt;
+          &lt;!-- Value will be added from json as name=id (header10)  --&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</pre>
+
+                </div>
+
+
+                <div class="content b-solid">
+                  <h1>CSS Structure</h1>
+                  <p>These are the css files that are loaded into templates in Head Section.</p>
+<pre class="prettyprint linenums">
+&lt;link href="./css4/bootstrap.min.css" rel="stylesheet" class="ltr" onload="if(media!='all')media='all'" /&gt;
+
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /&gt;
+
+&lt;link href="./css/main-style.css" rel="stylesheet" /&gt;
+
+&lt;link href="./css/slick.css" rel="stylesheet" onload="if(media!='all')media='all'" /&gt;
+</pre>
+                </div>
+
+
+                <div class="content b-solid">
+                  <h1>JavaScript Structure</h1>
+                  <p>These are the JS files that are loaded into templates in end of the body section.</p>
+<pre class="prettyprint linenums">
+&lt;script src="./js4/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script defer src="./js/slick.min.js"&gt;&lt;/script&gt;
+&lt;script defer src="./js/pricetable.js"&gt;&lt;/script&gt;
+</pre>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.tocify.min.js"></script>
+    <script src="assets/js/prettify.js"></script>
+    <script>
+    $(function() {
+      var toc = $("#toc").tocify({
+      selectors: "h1, h2"
+      }).data("toc-tocify");
+      prettyPrint();
+    });
+    </script>
+  </body>
+</html>
